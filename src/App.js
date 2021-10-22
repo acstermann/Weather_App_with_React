@@ -9,19 +9,16 @@ export default function App() {
   return (
     <div className="App">
       <Search />
-      <h1 className="city" id="city">
-        Hamburg
-      </h1>
       <h2>
         <span id="temperature">19</span>
         <span>
-          <a href="" id="celsiusUnit" className="active">
+          <a href="/" id="celsiusUnit" className="active">
             °C |
           </a>
         </span>
         <span>
           {" "}
-          <a href="" id="fahrenheitUnit">
+          <a href="/" id="fahrenheitUnit">
             °F
           </a>
         </span>
@@ -31,7 +28,10 @@ export default function App() {
       <Details />
       <Forecast />
       <p>
-        <a href="https://github.com/acstermann/Weather-App" className="ending">
+        <a
+          href="https://github.com/acstermann/Weather_App_with_React"
+          className="ending"
+        >
           Open-source code{" "}
         </a>
         by Ann-Christin Stermann
