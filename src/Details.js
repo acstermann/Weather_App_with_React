@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles.css";
+import axios from "axios";
 
 export default function Details() {
   return (
